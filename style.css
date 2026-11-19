@@ -5,12 +5,16 @@ body {
 }
 /* Nav-bar */
 .banner-card {
-  background-color: rgb(87, 62, 96);
+  background-color: #493A54;
   margin: 1em auto;
   padding: 1em ;
   padding-top: 1.5em;
   border-radius: 12px;
-  box-shadow: 4px 4px 31px 8px rgba(255, 255, 255, 0.45);
+  box-shadow: 2px 2px 42px 4px #392B31;
+}
+
+.banner-card a {
+  color: #EBDFE7;
 }
 
 .navbar {
@@ -33,7 +37,7 @@ body {
   list-style: none;
   display:inline-flex;
   grid-gap: 6em;
-  margin-left:110px;
+  margin-left:100px;
   margin-right: 100px;
   padding: 0;
   font-family: Lucida Console;
@@ -41,7 +45,7 @@ body {
 }
 
 .navbar-right a {
-  color: white;
+  color: #EBDFE7;
   text-decoration:none;
   font-weight: bold;
   font-size: 20px;
@@ -75,7 +79,7 @@ body {
   margin: 1em auto;
   padding: 1.5em ;
   border-radius: 12px;
-  box-shadow-color: #392B31;
+  box-shadow: 4px 4px 31px 8px #392B31;
 }
 
 
@@ -86,7 +90,7 @@ body {
   text-align: center;
   margin: 2em auto;
   background-color: #493A54;
-  box-shadow-color: #392B31;
+  box-shadow: 4px 4px 31px 8px #392B31;
 }
 
 .o_p-pic img {
@@ -144,4 +148,17 @@ body {
   padding: 0em;
   border-radius: 25px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: rgba(204, 204, 204, 0.57);
 }
