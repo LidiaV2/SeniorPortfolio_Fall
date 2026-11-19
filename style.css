@@ -66,6 +66,13 @@ body {
   margin: 0.5em auto;
   margin-right: 3.5em;
   margin-left: 3.5em;
+
+  opacity: 0%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s, height 4s, background-color 3s, opacity 2s;
+
   
 }
 
