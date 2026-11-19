@@ -66,23 +66,16 @@ body {
   margin: 0.5em auto;
   margin-right: 3.5em;
   margin-left: 3.5em;
-
-  opacity: 0%;
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  transition: width 2s, height 4s, background-color 3s, opacity 2s;
-
   
 }
 
 
 .resource-card {
-  background-color: rgb(87, 62, 96);
+  background-color: #493A54;
   margin: 1em auto;
   padding: 1.5em ;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+  box-shadow-color: #392B31;
 }
 
 
@@ -92,13 +85,15 @@ body {
   align-items: center;
   text-align: center;
   margin: 2em auto;
+  background-color: #493A54;
+  box-shadow-color: #392B31;
 }
 
 .o_p-pic img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 3px solid rgb(53, 36, 59);
+  border: 3px solid #392B31;
   object-fit: cover;
   margin: 2em auto;
 }
@@ -107,7 +102,7 @@ body {
   width: 150px;
   height:150px;
   border-radius: 50%;
-  border: 3px solid rgb(91, 70, 99);
+  border: 3px solid #493A54;
   object-fit: cover;
   margin-top: 5em;
   
@@ -144,7 +139,7 @@ body {
 }
 
 .open-button {
-  background-color: rgb(87, 62, 96);
+  background-color: #493A54;
   margin: 4em;
   padding: 0em;
   border-radius: 25px;
